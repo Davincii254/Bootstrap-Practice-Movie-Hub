@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Meta tags for responsive design -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+    <title>MovieHub</title>
+</head>
+
+<body>
+    <!-- Main container for the entire layout -->
+    <div class="container-fluid">
+        <div class="row">
+            <!-- Sidebar navigation on the left -->
+            <nav class="col-md-2 d-none d-md-block bg-dark sidebar">
+                <div class="position-sticky">
+                    <!-- Navigation items -->
+                    <ul class="nav flex-column">
+                        <li class="nav-item">
+                            <a class="nav-link active text-white" href="#">
+                                <!-- Home icon from Bootstrap Icons -->
+                                <i class="bi bi-house-door-fill"></i> Home
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#">
+                                <i class="bi bi-film"></i> Movies
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#">
+                                <i class="bi bi-tv"></i> Series
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#">
+                                <i class="bi bi-tv"></i> Anime
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#">
+                                <i class="bi bi-star-fill"></i> Top IMDB
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+
+            <!-- Main content area -->
+            <main class="col-md-9 ms-sm-auto col-lg-10 px-md-4">
+                <!-- Header section -->
+                <header class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
+                    <h1 class="h2">MovieHub</h1>
+                </header>
+
+                <!-- Search bar section -->
+                <div class="input-group mb-3">
+                    <input type="text" class="form-control" placeholder="Search movies, series, anime..." aria-label="Search">
+                    <button class="btn btn-primary" type="button">Search</button>
+                </div>
+
+                <!-- Movie grid section using Bootstrap grid system -->
+                <section class="row g-4">
+                    <!-- Each col-md-4 represents a movie poster, making 3 per row -->
+                    <div class="col-md-4">
+                        <div class="card h-100">
+                            <!-- Placeholder for movie image; add your image URL here -->
+                            <img src="public/images/movie1.jpg" class="card-img-top rounded" alt="Movie Poster">
+                            <div class="card-body">
+                                <h5 class="card-title">Movie Title 1</h5>
+                                <p class="card-text">Release Year: 2023<br>Duration: 120 min</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card h-100">
+                            <img src="public/images/movie2.jpg" class="card-img-top rounded" alt="Movie Poster">
+                            <div class="card-body">
+                                <h5 class="card-title">Movie Title 2</h5>
+                                <p class="card-text">Release Year: 2021<br>Duration: 90 min</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card h-100">
+                            <img src="public/images/movie3.jpg" class="card-img-top rounded" alt="Movie Poster">
+                            <div class="card-body">
+                                <h5 class="card-title">Movie Title 3</h5>
+                                <p class="card-text">Release Year: 2020<br>Duration: 110 min</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card h-100">
+                            <img src="public/images/movie4.jpg" class="card-img-top rounded" alt="Movie Poster">
+                            <div class="card-body">
+                                <h5 class="card-title">Movie Title 4</h5>
+                                <p class="card-text">Release Year: 2019<br>Duration: 130 min</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card h-100">
+                            <img src="public/images/movie5.jpg" class="card-img-top rounded" alt="Movie Poster">
+                            <div class="card-body">
+                                <h5 class="card-title">Movie Title 5</h5>
+                                <p class="card-text">Release Year: 2018<br>Duration: 105 min</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card h-100">
+                            <img src="public/images/movie6.jpg" class="card-img-top rounded" alt="Movie Poster">
+                            <div class="card-body">
+                                <h5 class="card-title">Movie Title 6</h5>
+                                <p class="card-text">Release Year: 2022<br>Duration: 140 min</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card h-100">
+                            <img src="public/images/movie7.jpg" class="card-img-top rounded" alt="Movie Poster">
+                            <div class="card-body">
+                                <h5 class="card-title">Movie Title 7</h5>
+                                <p class="card-text">Release Year: 2017<br>Duration: 95 min</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card h-100">
+                            <img src="public/images/movie8.jpg" class="card-img-top rounded" alt="Movie Poster">
+                            <div class="card-body">
+                                <h5 class="card-title">Movie Title 8</h5>
+                                <p class="card-text">Release Year: 2016<br>Duration: 125 min</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card h-100">
+                            <img src="public/images/movie9.jpg" class="card-img-top rounded" alt="Movie Poster">
+                            <div class="card-body">
+                                <h5 class="card-title">Movie Title 9</h5>
+                                <p class="card-text">Release Year: 2015<br>Duration: 100 min</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </main>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
