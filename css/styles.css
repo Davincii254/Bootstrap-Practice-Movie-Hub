@@ -1,0 +1,38 @@
+/* Sidebar styling */
+.sidebar {
+    height: 100vh; /* Full height */
+    position: fixed; /* Stays in place while scrolling */
+    top: 0; /* Aligns with the top of the viewport */
+    left: 0; /* Aligns with the left of the viewport */
+    padding-top: 20px; /* Adds spacing at the top */
+}
+
+/* Sidebar navigation links */
+.sidebar .nav-link {
+    font-size: 1.1rem; /* Slightly larger font */
+}
+
+/* Sidebar navigation active link style */
+.sidebar .nav-link.active {
+    background-color: #007bff; /* Highlight active link */
+    color: white; /* Text color */
+}
+
+/* Card image styling */
+.card-img-top {
+    width: 100%; /* Full width to fit the card */
+    height: 300px; /* Fixed height for consistency */
+    object-fit: cover; /* Crop the image to maintain aspect ratio */
+    border-radius: 8px; /* Rounded corners for images */
+}
+
+/* Custom styling for main content area */
+main {
+    margin-left: 220px; /* Provides space for the sidebar */
+}
+
+/* Custom button styling */
+.btn-primary {
+    background-color: #007bff; /* Primary color for buttons */
+    border: none; /* Removes border */
+}
